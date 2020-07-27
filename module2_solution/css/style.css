@@ -1,0 +1,148 @@
+body{
+	text-align: center;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     
+}
+*{
+	
+	box-sizing: border-box;
+	
+}
+div{
+	background-color: #bbb;
+	border: 1px solid black;
+
+	
+}
+p{
+	padding: 10px;
+	margin: 0px;
+}
+.container{
+	width: 100%;
+	margin: 0;
+	border: 0px;
+}
+@media (min-width:992px){
+	.chicken,.beef,.sushi{
+		float: left; 
+		margin:5px;
+	}
+
+.chicken{
+	width: calc(33.33% - 10px);
+	
+}
+.beef{
+	width: calc(33.33% - 10px);
+	
+}
+.sushi{
+	width: calc(33.33% - 10px);
+	
+}
+.chickenTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #abc;
+	border: 1px solid black;
+	
+
+}
+.beefTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #acb;
+	border: 1px solid black;
+	
+}
+.sushiTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #bac;
+	border: 1px solid black;
+	
+}
+}
+@media (max-width:991px) and (min-width:768px){
+	.chicken,.beef,.sushi{
+		float: left;
+		margin:5px;
+	}
+.chicken{
+	
+	width:calc(50% - 10px);
+}
+.beef{
+	
+	width:calc(50% - 10px);
+}
+.sushi{
+	
+	width:100%;
+	margin-top: 10px;
+}
+.chickenTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #abc;
+	border: 1px solid black;
+}
+.beefTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #acb;
+	border: 1px solid black;
+}
+.sushiTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #bac;
+	border: 1px solid black;
+}
+}
+@media (max-width:767px){
+	.chicken,.beef,.sushi{
+		float: left;
+		margin-bottom: 10px;
+	}
+.chicken{
+	
+	width:100%;
+}
+.beef{
+	
+	width:100%;
+}
+.sushi{
+	
+	width:100%;
+}
+.chickenTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #abc;
+	border: 1px solid black;
+}
+.beefTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #acb;
+	border: 1px solid black;
+}
+.sushiTitle{
+	position: relative;
+	left: 60%;
+	width: 40%;
+	background-color: #bac;
+	border: 1px solid black;
+}
+}
